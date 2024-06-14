@@ -1,0 +1,125 @@
+body {
+    font-family: 'LeeSeoyun';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    display: inline-flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.slides {
+    width: 800px;
+    height: 350px;
+}
+
+header {
+    background-color: #ff8a3c;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides {
+    position: relative;
+    display: flex;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.slide.active {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+footer { /*하단배너*/
+    background-color: #e5e5e5; 
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center; 
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
