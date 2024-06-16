@@ -33,6 +33,16 @@ body {
     .b2 { 
         background-image: url('image/음식버튼.png'); 
     }
+    .b3 {
+        background-image: url('image/소식전달.png');
+    }
+    .b4 {
+        background-image: url('image/대회안내.png');
+        
+    }
+    .b5 {
+        background-image: url('image/고객센터.png');
+    }
 }
 
 .AllBox {
