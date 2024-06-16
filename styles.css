@@ -9,6 +9,64 @@ body {
     align-items: center;
 }
 
+.BoxBtn {
+    display: flex;
+    justify-content: center; /* 수직 중앙 정렬 */
+    padding: 3%;
+    
+    button {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+        background-size: cover; /* 이미지 크기 조정 */
+        background-position: center; /* 이미지 위치 조정 */
+        border: none; /* 테두리 제거 */
+        font-family: 'LeeSeoyun';
+    }
+    
+
+    .b1 {
+        background-image: url('image/위치버튼.png'); 
+    }
+    .b2 { 
+        background-image: url('image/음식버튼.png'); 
+    }
+}
+
+.AllBox {
+        display: flex;
+        justify-content: center; /* 수직 중앙 정렬 */
+        
+        .Box1 {
+            flex-direction: column;
+            justify-content: center; /* 수직 중앙 정렬 */
+            align-items: center; /* 수평 중앙 정렬 */
+            width: 20%;
+            height: 30%; 
+            background-color: gray;
+        }
+        .Box2 {
+            flex-direction: column;
+            justify-content: center; /* 수직 중앙 정렬 */
+            align-items: center; /* 수평 중앙 정렬 */
+            width: 40%;
+            height: 30%;
+            background-color:gray;
+            margin-left: 2%;
+        }
+        .Box3 {
+            flex-direction: column;
+            justify-content: center; /* 수직 중앙 정렬 */
+            align-items: center; /* 수평 중앙 정렬 */
+            width: 20%;
+            height: 30%;
+            background-color:gray;
+            margin-left: 2%;
+        }
+}
+
 @font-face {
     font-family: 'LeeSeoyun';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
@@ -17,8 +75,8 @@ body {
 }
 
 .slides {
-    width: 800px;
-    height: 350px;
+    width: 700px;
+    height: 200px;
 }
 
 header {

@@ -10,20 +10,52 @@
     <header>
         <div class="container">
             <div class="title">
-                <h3 >PC cafe </h3>
-                <h1 style="color: blue; font-family:Arial, Helvetica, sans-serif;">NEX</h1>
+                <h3 style="font-family:Arial, Helvetica, sans-serif;">PC cafe</h3>
+                <h1 style="color: blue; font-family:Arial, Helvetica, sans-serif; margin-left: 4px;">NEX</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home">MY PC</a></li>
+                    <li><a href="#about">찾아오는 길</a></li>
+                    <li><a href="#services">PC방 대회</a></li>
+                    <li><a href="#services">소식과 이벤트</a></li>
+                    <li><a href="#contact">고객센터</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
+        <div class="AllBox">
+            <div class="Box1">
+                    <h2>로그인</h2>
+                    <form id="login-form">
+                        <input type="email" id="email" placeholder="이메일" required>
+                        <input type="password" id="password" placeholder="비밀번호" required>
+                        <button type="submit">로그인</button>
+                    </form>
+            </div>
+            <div class="Box2">
+                <div class="slider">
+                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                    <div class="slides">
+                        <img src="image/image1.jpg" alt="Image 1" class="slide active">
+                        <img src="image/image2.jpg" alt="Image 2" class="slide">
+                        <img src="image/image3.jpeg" alt="Image 3" class="slide">
+                    </div>
+                    <div class="BoxBtn">
+                        <button class="b1"><a>위치안내</a></button>
+                        <button class="b2"><a>음식메뉴</a></button>
+                        <button class="b3"><a>소식전달</a></button>
+                        <button class="b4"><a>대회안내</a></button>
+                        <button class="b5"><a>고객센터</a></button>  
+                    </div>
+                </div>
+            </div>
+            <div class="Box3">
+                ssdasd
+            </div>
+        </div>
         <section id="home">
             <div class="container">
                 <h2>Welcome to our PC방</h2>
@@ -34,15 +66,6 @@
             <div class="container">
                 <h2>About Us</h2>
                 <p>여기에 PC방에 대한 설명을 적습니다.</p>
-                <div class="slider">
-                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
-                    <div class="slides">
-                        <img src="image/image1.jpg" alt="Image 1" class="slide active">
-                        <img src="image/image2.jpg" alt="Image 2" class="slide">
-                        <img src="image/image3.jpeg" alt="Image 3" class="slide">
-                    </div>
-                </div>
             </div>
         </section>
         <section id="services">
